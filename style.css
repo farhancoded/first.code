@@ -1,0 +1,115 @@
+.box{
+
+    width: 200px;
+   
+    border: 1px solid red;
+    text-align: center;
+    /* padding:20px; */
+    padding:50px;
+    margin:50px  100px;
+}
+.title{
+    display: inline;
+} 
+.description{
+    color:green;
+    font-size: 50px;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-align: center;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+  
+    font-weight: 771;
+    font-style:normal;
+} 
+.box1{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border: 2px solid black;
+    position: relative;
+    left : 100px;
+    background-color: green;
+}
+.box2{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border: 2px solid black;
+    position: relative;
+    left : 100px;
+    background-color: orchid;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    left:70px;
+    top:70px;
+
+}
+.line-1{
+    width: 300px;
+      height: 200px;
+      border: 1px solid green;
+      
+
+
+}
+.line-2{
+    width: 300px;
+      height: 200px;
+      border: 1px solid gray;
+
+
+
+}
+.line-3{
+    width: 300px;
+      height: 200px;
+      border: 1px solid rgb(10, 149, 208);
+
+
+
+}
+.line-4{
+    width: 300px;
+      height: 200px;
+      border: 1px solid rgb(176, 209, 12);
+
+
+
+}
+.line-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+flex-wrap: wrap;
+    height: 100vh;
+    border: 1px solid goldenrod;
+    align-items: center;
+}
+.banner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin:auto;
+    color:white;
+    background-image: url('images/farhan.jpg'),linear-gradient(45deg,red,blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+button{
+
+    width: 300px;
+    padding: 30px;
+    background:linear-gradient(45deg,white,red,blue);
+}
